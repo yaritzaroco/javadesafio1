@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Oferta</title>
+</head>
+
+<body>
+    <div class="elements">
+        <div class="container">
+
+            <img class="product" src="assets/img/descarga-2020-05-27T175419.818.png" alt="pc">
+            <h2>Laptop Gamer Acer </h2>
+            <h3 id="precio1" value="998900">Price: $998900 </h3>
+            <p> <input  id="cantidad1"  type="number"  placeholder="Cantidad" min="0" max="5">
+
+            </p>
+            <p > <input id="color1" type="text" placeholder="Color">
+            </p>
+
+            <p> <button class="btn1" type="submit" onclick="calcular ()"> Calcular Total</button></p>
+        </div>
+        <div class="resultados">
+            <p>Total:$<span id="totalfinal">0</span></p>
+            <p>Cantidad: <span id="cantidadfinal">0</span></p>
+            <p>Color: <span id="colorfinal"></span></p>
+            <div id="colorselector">
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
